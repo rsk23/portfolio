@@ -4,7 +4,7 @@
 
 body{
   color:red;
-  background-color: Navy
+  background-color: Navy;
 }
 h1{
   color:blue
@@ -20,14 +20,14 @@ footer{
 }
 img {
   border: 2px dashed red;
-  background-color: blue
+  background-color: blue;
   margin: 2rem;
 }
 img.water {
   border: 2px dashed blue
 }
 img.people{
-  border: 2px dashed yellow
+  border: 2px dashed yellow;
   padding:0.5rem;
 }
 img.code{
