@@ -22,6 +22,7 @@ img {
   border: 2px dashed red;
   background-color: blue;
   margin: 2rem;
+  padding: 0.5rem;
 }
 img.water {
   border: 2px dashed blue
@@ -31,7 +32,8 @@ img.people{
   padding:0.5rem;
 }
 img.code{
-  border: 2px dashed green
+  border: 2px dashed green;
+  padding: 0.5rem;
 }
 header{
   width: 40rem;
