@@ -48,7 +48,7 @@ footer ul{
   padding: 0;
 }
 footer li{
-  float:center;
+  float:left;
   margin: 0;
   padding: 0.5rem 1rem 0.5rem 0;
 }
