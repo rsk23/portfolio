@@ -1,0 +1,54 @@
+*{
+
+}
+header{
+  background-color: lightblue
+}
+header p{
+  font-style: italic;
+}
+.wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+  /*border: 2px solid purple;*/
+  overflow: auto;
+}
+nav {
+  background-color: lightgrey;
+  overflow: auto;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+nav li{
+  float:left;
+  margin: 0;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+article{
+  /*border: 2px solid red;*/
+  float: left;
+}
+.main-article{
+  width: 70%
+}
+.main-article h2{
+  color: lightblue
+}
+.side-bar-article{
+  width: 30%
+}
+footer {
+  background-color: dimgrey;
+  overflow: auto;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+footer li{
+  float:center;
+  margin: 0;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
