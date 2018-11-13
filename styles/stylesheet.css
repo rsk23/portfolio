@@ -19,6 +19,7 @@ h3{
 footer{
   color:orange
 }
+
 img {
   border: 2px dashed red;
   background-color: blue;
@@ -48,9 +49,6 @@ nav{
 a {
   color: crimson
 }
-a.nav-highlight {
-  color: Gold
-}
 .flexbox-container{
   display:flex;
   flex-direction: row;
@@ -58,4 +56,40 @@ a.nav-highlight {
   align-items: center;
   width: 60rem;
   height: 10rem;
+}
+/*nth-child selector #1*/
+li:nth-child(2n){
+  color:green;
+}
+/*nth-child selector #2*/
+a:nth-child(2n+1){
+  background-color: white;
+}
+/*nth-child selector #3*/
+a:last-child{
+  border: 0.2rem dashed red;
+}
+.sm-hover{
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-delay: 1s;
+}
+.water{
+  transition-property: width,height;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+/*transition #1*/
+.sm-hover:hover{
+  font-size:28px;
+}
+/*transition #2*/
+a:visited{
+  color:purple
+}
+/*transistion #3*/
+.water:hover{
+  width:300px;
+  height:300px;
 }
